@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Tech  from './components/Tech'
 export const App = () => {
   return (
     <div className=' overflow-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
@@ -12,6 +13,7 @@ export const App = () => {
       <Navbar />
       <Hero/>
       <About/>
+      <Tech/>
       </div>
     </div>
   )
