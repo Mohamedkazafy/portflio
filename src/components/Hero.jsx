@@ -32,7 +32,11 @@ const Hero = () => {
             </div>
             <div className=' w-full lg:w-1/2 lg:p-8'>
                 <div className='flex justify-center'>
-                    <img src={profilePic} alt="Pic" />
+                    <motion.img src={profilePic} alt="Pic" 
+                    initial={{x:100,opacity:0}}
+                    animate={{x:0,opacity:1}}
+                    transition={{duration:1,delay:1.2}}
+                    />
                 </div>
             </div>
         </div>
