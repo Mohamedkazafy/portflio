@@ -1,9 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Tech  from './components/Tech'
-import Experince from './components/Experince'
+import { Navbar, Hero, About, Tech, Experince, Projects, Contact } from './components';
 export const App = () => {
   return (
     <div className=' overflow-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
@@ -16,6 +12,8 @@ export const App = () => {
       <About/>
       <Tech/>
       <Experince/>
+      <Projects/>
+      <Contact/>
       </div>
     </div>
   )
