@@ -1,7 +1,7 @@
 import React from 'react'
 import { delay, motion } from "framer-motion"
 import {HERO_CONTENT} from "../constants"
-import profilePic from '../assets/kevinRushProfile.png'
+import myProfile from '../assets/myProfile.png'
 const container = (delay) => ({
     hidden: {x:-100, opacity:0},
     visible:{
@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             <div className=' w-full lg:w-1/2 lg:p-8'>
                 <div className='flex justify-center'>
-                    <motion.img src={profilePic} alt="Pic" 
+                    <motion.img src={myProfile} alt="Pic" 
                     initial={{x:100,opacity:0}}
                     animate={{x:0,opacity:1}}
                     transition={{duration:1,delay:1.2}}
